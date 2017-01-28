@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+/* Cabeçalho do site */
+
+.partial_header {
+    width: 100%;
+}
+
+.menu_header ul {
+    list-style: none;
+    
+}
+
+.menu_header ul li {
+    padding: 0.1em;
+    list-style: none;
+    display: inline-block;
+}
+
+.menu_header a {
+    text-decoration: none;
+}
+
