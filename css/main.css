@@ -1,25 +1,143 @@
 body{
     margin: 0;
+    background-color: #f2f2f2;
+    font-family: sans-serif;
 }
 
 /* Cabeçalho do site */
-
-.partial_header {
+header{
     width: 100%;
+    height: 8ch;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #d2d2d2;
+    border-bottom: 1px solid #f7b512;
 }
 
-.menu_header ul {
+a{
+    text-decoration: underline;
+    color: #2a2a2a;
+    font-weight: 600;
+}
+
+a:hover, a:focus{
+    color: #f7b512;
+}
+
+.partial-header {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.logotipo-header{
+    float: left;
+    padding: 0.5em 1em;
+    width: 200px;
+}
+
+
+.menu-header{
+    float: right;
+    padding-top: 1.5em;
+}
+
+.menu-header ul {
     list-style: none;
     
 }
 
-.menu_header ul li {
-    padding: 0.1em;
+.menu-header ul li {
+    padding: 0.2em 0.4em;
     list-style: none;
     display: inline-block;
 }
 
-.menu_header a {
+.menu-header a, a:active {
+    text-decoration: none;
+    color: #6b6b6b;
+    font-weight: bold;
+}
+
+header a:hover, a:focus{
+    color: #f7b512;
+    padding-bottom: 1.5em;
+    border-bottom: 0.3em solid #f7b512;
+}
+
+.container {
+    clear: both;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.title{
+    color: #4b4b4b;
+    padding: 2rem 0 1rem 1rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.about{
+    font-size: 0.8rem;
+   width: auto;
+}
+
+.content-about .image-perfil{
+    
+    float: left;
+    width: 25%;
+}
+
+.content-about .image-perfil img{
+    text-align: center;
+    width: 80%;
+    padding: 0.5em ;
+    border-radius: 8%;
+}
+
+.content-about ul{
+    font-weight: 800;
+    float: left;
+    width: 31%;
+}
+
+.content-about ul li{
+    padding: 0.7em;
+    border-bottom: 1px solid #bbb;
+}
+
+.content-about ul li span{
+    font-weight: normal;
+}
+
+.content-about ul li a{
+    font-weight: normal;
     text-decoration: none;
 }
 
+
+.content-about .sumary{
+    float: right;
+    width: 40%;
+}
+
+.content-about .sumary h1{
+    color: #4b4b4b;
+    padding: 0 0 0.5em 1.2em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.content-about .sumary p{
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em;
+}
+
+.content-about .sumary img{
+    width: 18em;
+    margin-left: 10ch;
+    
+}

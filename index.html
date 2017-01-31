@@ -9,37 +9,77 @@
     <meta name="generator" content="HTML-Kit 292" />
     <meta name="robots" content="all" />
 
-
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" />
-    <link rel="stylesheet" href="css/normalize/5.0.0/normalize-min.css" />
+    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset200802.css" />
+    <link rel="stylesheet" href="css/reset/reset.css" />
     <!--<link rel="stylesheet" href="css/bootstrap/3.3.7/css/bootstrap.min.css" />-->
     <link rel="stylesheet" href="css/main.css" />
+  
     
 </head>
 
 
 <body>
     
-    <div w3-include-html="_header.html"></div>
-	
-	<h1>Sobre mim</h1>
-	
-    <img src="images/fernando-seguim.jpg" alt="Foto de Fernando Seguim" title="Foto de Fernando Seguim" />
     
-    <ul>
-        <li>Nome: <span>Fernando Seguim</span></li>
-        <li>E-mail: <span>fernando@seguim.me | fernando.seguim@gmail.com </span></li>
-        <li>Telefone: <span>+55 11 9 8264-6822</span></li>
-        <li>Data de Nascimento: <span>Fernando Seguim</span></li>
-        <li>Endereço: <span>Rua Martim Francisco, 402 - Vila Buarque - São Paulo/SP - Brasil</span></li>
-        <li>Nacionalidade: <span>Brasileiro</span></li>
-    </ul>
+    <header w3-include-html="_header.html">
     
-    <h2>Resumo</h2>
-    <p>
-        Sou graduando em Sistemas de Informação pela FIAP e atuo no mercado de TI há 7 anos. Minha mais recente experiência foi como Consultor de Implantação e Desenvolvedor SQL, atuando em mais de 10 projetos junto à grandes empresas como Unisys, Equatorial Energia, Magazine Luíza, Unimed e Hospital Israelita Albert Einstein. Sou entusiasta das áreas de Engenharia de Software e Metodologias Ágeis e tenho como atual objetivo me reposicionar no mercado de TI como desenvolvedor fullstack. 
-    </p>
+        <section class="partial-header">
+
+        <a href="#"><img src="images/logotipo-seguim-fundo-claro.png" alt="Logotipo do site, um cubo cujo as as extremidades das faces superior, frontal e direita formam um S" class="logotipo-header" /></a>
+
+        <nav class="menu-header">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Experiencia</a></li>
+                <li><a href="#">Educação</a></li>
+                <li><a href="#">Portifolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+        </nav>
+        </section>
+    </header>
     
+    <div class="container">
+        
+        <section class="about">
+            
+            <h1 class="title">Sobre mim</h1>
+            
+            <div class="content-about">
+                
+                <div class="image-perfil" id="photo-perfil">
+
+                    <img src="images/fernando-seguim-01.jpg" alt="Foto do autor Fernando Seguim" title="Fernando Seguim, desenvolvedor de softwares freelancer" />
+                </div>
+
+                <ul>
+                    <li>Nome: <span>Fernando Seguim</span></li>
+                    <li>E-mail: <span>fernando@seguim.me | fernando.seguim@gmail.com </span></li>
+                    <li>Telefone: <span>+55 11 9 8264-6822</span></li>
+                    <li>Data de Nascimento: <span>06/05/1988</span></li>
+                    <li>Endereço: <a href="https://goo.gl/maps/o7GdF72Wr9A2">Rua Martim Francisco, 402 - Vila Buarque - São Paulo/SP - Brasil</a></li>
+                    <li>Nacionalidade: <span>Brasileiro</span></li>
+                </ul>
+                
+                <aside class="sumary">
+                    <h1>Resumo</h1>
+                    <p>
+                        Graduando em Sistemas de Informação pela FIAP, atuo no mercado de TI há 7 anos, atuando inicialmente com suporte e manutenção em microinformática, posteriormente como Consultor de Implantação de Sistemas e Desenvolvedor T-SQL e PL/SQL, atuando em mais de 10 projetos junto à grandes empresas como Unisys, Equatorial Energia, Magazine Luíza, Unimed e Hospital Israelita Albert Einstein. Atualmente atuo como desenvolvedor fullstack (front-end e back-end) freelancer.
+                    </p>
+                    <p>
+                        Sou entusiasta das áreas de Engenharia de Software, Metodologias Ágeis. Também atuo de empreender e atualmente estou envolvido em três projetos sendo <a href="#">23tech</a>, <a href="#">iPet</a> e <a href="#">Care+Up!</a>.
+                    </p>
+                    <img src="images/assinatura-seguim.png" alt="Assinatura do autor Fernando Seguim" />
+                </aside>
+            </div>
+        </section>
+
+    </div>
+        
     <script src="http://www.w3schools.com/lib/w3data.js"></script>
     <script>
         w3IncludeHTML();
